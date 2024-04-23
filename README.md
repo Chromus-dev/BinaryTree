@@ -1,20 +1,48 @@
 # Binary Tree
 
-## Getting Started
+## Requirements
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+* Array, arraylist, or 2d array (at least one)
+* Loop or recursion
+* Inheritance (optional)
+* Classes (3 minimum)
+* Methods  (no minimum)
+  * No super long ones - break them up
+* 1 method from Math class
+* Typecasting
+  * Could do this with math.random
+* Variables
+  * Strings
+  * Integers
+  * Doubles
+  * Boolean (optional)
+* If statement
+* 3 relational operators
+  * &lt;
+  * >
+  * ==
+  * !=
+  * &lt;=
+  * >=
+* 2 logical operators
+  * ! (required, separate from !=)
+  * &&
+  * ||
+* 1 mathematical operator
+  * +
+  * -
+  * *
+  * /
+  * %
+* Output
+* String concatination
+* 1 increment/deccrement operator
+  * ++
+  * --
+* 2 String methods
+  * Substring (required)
+  * Any other string method
 
-## Folder Structure
+## To-Do
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+* <https://github.com/AharonSambol/PrettyPrintTreeJava>
