@@ -18,20 +18,21 @@
   * Boolean (optional)
 * If statement
 * 3 relational operators
-  * &lt;
-  * >
-  * ==
+  * \<
+  * \>
+  * \==
   * !=
-  * &lt;=
-  * >=
+  * \=
+  * <=
+  * \>=
 * 2 logical operators
   * ! (required, separate from !=)
   * &&
   * ||
 * 1 mathematical operator
-  * +
-  * -
-  * *
+  * \+
+  * \-
+  * \*
   * /
   * %
 * Output
