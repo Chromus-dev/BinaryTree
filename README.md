@@ -1,5 +1,13 @@
 # Binary Tree
 
+## Run
+
+`javac src/* -cp "lib/PrettyPrintTreeJava.jar" && java src/Main.java -cp "lib/PrettyPrintTreeJava.java"`
+
+## To-Do
+
+* <https://github.com/AharonSambol/PrettyPrintTreeJava>
+
 ## Requirements
 
 * Array, arraylist, or 2d array (at least one)
@@ -43,7 +51,3 @@
 * 2 String methods
   * Substring (required)
   * Any other string method
-
-## To-Do
-
-* <https://github.com/AharonSambol/PrettyPrintTreeJava>
