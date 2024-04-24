@@ -1,4 +1,3 @@
-import java.util.*;
 import ajs.printutils.PrettyPrintTree;
 
 public class Tree {
@@ -28,10 +27,11 @@ public class Tree {
     // }
 
     public void displayTree() {
-        PrettyPrintTree<Tree<TreeNode>> prettyTree = new PrettyPrintTree<Tree<TreeNode>>(
-            // get children function
-            ,
-            // get value
-        )
+        PrettyPrintTree<TreeNode> prettyTree = new PrettyPrintTree<TreeNode>(
+                TreeNode::getChildren,
+                TreeNode::stringValue);
+
+        prettyTree.display(this.root);
+
     }
 }

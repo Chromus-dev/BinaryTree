@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class TreeNode {
     private Integer value;
     private TreeNode left = null;
@@ -7,8 +9,21 @@ public class TreeNode {
         this.value = v;
     }
 
+    public ArrayList<TreeNode> getChildren() {
+        ArrayList<TreeNode> children = new ArrayList<TreeNode>();
+
+        children.add(this.left());
+        children.add(this.right());
+
+        return children;
+    }
+
     public Integer value() {
         return this.value;
+    }
+
+    public String stringValue() {
+        return this.value.toString();
     }
 
     public void setValue(Integer v) {
