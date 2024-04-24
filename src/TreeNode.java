@@ -45,4 +45,12 @@ public class TreeNode {
     public void setRight(TreeNode r) {
         this.right = r;
     }
+
+    public void setLeft(Integer l) {
+        this.left = new TreeNode(l);
+    }
+
+    public void setRight(Integer r) {
+        this.right = new TreeNode(r);
+    }
 }
