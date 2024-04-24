@@ -1,12 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        TreeNode root = new TreeNode(8);
+        root.setLeft(new TreeNode(2));
+        root.setRight(new TreeNode(3));
 
-        Tree binaryTree = new Tree(8);
-
-        binaryTree.addChild(2);
-        binaryTree.addChild(1);
-        binaryTree.addChild(5);
+        Tree binaryTree = new Tree(root);
 
         binaryTree.displayTree();
     }

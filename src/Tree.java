@@ -3,8 +3,12 @@ import ajs.printutils.PrettyPrintTree;
 public class Tree {
     private TreeNode root;
 
-    public Tree(Integer root) {
-        this.root = new TreeNode(root);
+    public Tree(Integer rootValue) {
+        this.root = new TreeNode(rootValue);
+    }
+
+    public Tree(TreeNode root) {
+        this.root = root;
     }
 
     public void addChild(Integer val) {
