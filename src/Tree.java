@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Tree {
     private TreeNode root;
 
@@ -25,5 +27,10 @@ public class Tree {
     // }
 
     public void displayTree() {
+        PrettyPrintTree<Tree<TreeNode>> prettyTree = new PrettyPrintTree<Tree<TreeNode>>(
+            // get children function
+            ,
+            // get value
+        )
     }
 }
