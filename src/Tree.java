@@ -12,19 +12,21 @@ public class Tree {
     }
 
     public void addChild(Integer val) {
-        TreeNode parentNode = root;
+        addChildHelper(val, root);
+    }
 
-        while (!(parentNode.left() == null && parentNode.right() == null)) {
-            if (val > parentNode.value())
-                parentNode = parentNode.right();
+    public void addChildHelper(Integer val, TreeNode parentNode) {
+        if (val > parentNode.value()) {
+            if (parentNode.right() == null)
+                parentNode.setRight(val);
             else
-                parentNode = parentNode.left();
+                addChildHelper(val, parentNode.right());
+        } else {
+            if (parentNode.left() == null)
+                parentNode.setLeft(val);
+            else
+                addChildHelper(val, parentNode.left());
         }
-
-        if (val > parentNode.value())
-            parentNode.setRight(new TreeNode(val));
-        else
-            parentNode.setLeft(new TreeNode(val));
     }
 
     // public Integer[] toArray() {
@@ -36,6 +38,5 @@ public class Tree {
                 TreeNode::stringValue);
 
         prettyTree.display(this.root);
-
     }
 }
