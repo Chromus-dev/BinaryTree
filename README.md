@@ -6,8 +6,7 @@
 
 ## To-Do
 
-* <https://github.com/AharonSambol/PrettyPrintTreeJava>
-* pass comma separated list in arguments
+* random
 
 ## Requirements
 
