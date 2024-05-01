@@ -12,6 +12,15 @@ public class Tree {
         this.root = root;
     }
 
+    public int addRandomChild(int min, int max) {
+        double random = Math.random();
+        int numToAdd = (int) (random * max) + min;
+
+        this.addChild(numToAdd);
+
+        return numToAdd;
+    }
+
     public void addChild(Integer val) {
         addChildHelper(val, root);
     }
@@ -30,7 +39,7 @@ public class Tree {
     }
 
     public void addChildHelper(Integer val, TreeNode parentNode) {
-        if (val > parentNode.value()) {
+        if ((val > parentNode.value()) && !(val <= parentNode.value())) {
             if (parentNode.right() == null)
                 parentNode.setRight(val);
             else

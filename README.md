@@ -10,44 +10,43 @@
 
 ## Requirements
 
-* Array, arraylist, or 2d array (at least one)
-* Loop or recursion
-* Inheritance (optional)
-* Classes (3 minimum)
-* Methods  (no minimum)
-  * No super long ones - break them up
-* 1 method from Math class
-* Typecasting
-  * Could do this with math.random
-* Variables
-  * Strings
-  * Integers
-  * Doubles
-  * Boolean (optional)
-* If statement
-* 3 relational operators
-  * \<
-  * \>
-  * \==
-  * !=
-  * \=
-  * <=
-  * \>=
+* [x] Array, arraylist, or 2d array (at least one)
+* [x] Loop or recursion
+* [ ] Inheritance (optional)
+* [x] Classes (3 minimum)
+* [x] Methods  (no minimum)
+  * [x] No super long ones - break them up
+* [x] 1 method from Math class
+* [x] Typecasting
+  * [x] Could do this with math.random
+* [x] Variables
+  * [x] Strings
+  * [x] Integers
+  * [x] Doubles
+  * [ ] Boolean (optional)
+* [x] If statement
+* [x] 3 relational operators
+  * [ ] \<
+  * [x] \>
+  * [x] \==
+  * [x] !=
+  * [x] <=
+  * [ ] \>=
 * 2 logical operators
-  * ! (required, separate from !=)
-  * &&
-  * ||
-* 1 mathematical operator
-  * \+
-  * \-
-  * \*
-  * /
-  * %
-* Output
-* String concatination
-* 1 increment/deccrement operator
-  * ++
-  * --
-* 2 String methods
-  * Substring (required)
-  * Any other string method
+  * [x] ! (required, separate from !=)
+  * [x] &&
+  * [ ] ||
+* [x] 1 mathematical operator
+  * [x] \+
+  * [ ] \-
+  * [ ] \*
+  * [ ] /
+  * [ ] %
+* [x] Output
+* [ ] String concatination
+* [ ] 1 increment/deccrement operator
+  * [ ] ++
+  * [ ] --
+* [x] 2 String methods
+  * [x] Substring (required)
+  * [x] Any other string method
