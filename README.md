@@ -6,9 +6,9 @@
 
 ## To-Do
 
-* random
+* increase child by index
 
-## Requirements
+## Requirementss
 
 * [x] Array, arraylist, or 2d array (at least one)
 * [x] Loop or recursion
