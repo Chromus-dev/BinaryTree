@@ -52,12 +52,24 @@ public class Tree {
         }
     }
 
-    public ArrayList<Integer> traverse() {
+    public String traverse() {
         ArrayList<Integer> nodes = new ArrayList<Integer>();
 
         traverseHelper(this.root, nodes);
 
-        return nodes;
+        String nodesString = "";
+        int i = 0;
+
+        while (i < nodes.size()) {
+            nodesString += nodes.get(i).toString();
+
+            if (nodes.size() > 1 && i < nodes.size() - 1)
+                nodesString = nodesString + ", ";
+
+            i++;
+        }
+
+        return nodesString;
     }
 
     public TreeNode traverseHelper(TreeNode root, ArrayList<Integer> nodes) {

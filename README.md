@@ -26,7 +26,7 @@
   * [ ] Boolean (optional)
 * [x] If statement
 * [x] 3 relational operators
-  * [ ] \<
+  * [x] \<
   * [x] \>
   * [x] \==
   * [x] !=
@@ -38,14 +38,14 @@
   * [ ] ||
 * [x] 1 mathematical operator
   * [x] \+
-  * [ ] \-
+  * [x] \-
   * [ ] \*
   * [ ] /
   * [ ] %
 * [x] Output
-* [ ] String concatination
-* [ ] 1 increment/deccrement operator
-  * [ ] ++
+* [x] String concatination
+* [x] 1 increment/deccrement operator
+  * [x] ++
   * [ ] --
 * [x] 2 String methods
   * [x] Substring (required)
