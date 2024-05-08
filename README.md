@@ -12,7 +12,6 @@
 
 * [x] Array, arraylist, or 2d array (at least one)
 * [x] Loop or recursion
-* [ ] Inheritance (optional)
 * [x] Classes (3 minimum)
 * [x] Methods  (no minimum)
   * [x] No super long ones - break them up
@@ -32,7 +31,7 @@
   * [x] !=
   * [x] <=
   * [ ] \>=
-* 2 logical operators
+* [x] 2 logical operators
   * [x] ! (required, separate from !=)
   * [x] &&
   * [ ] ||
