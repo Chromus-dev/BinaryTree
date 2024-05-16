@@ -14,6 +14,14 @@ public class Main {
         binaryTree2.addChild(6);
         binaryTree2.addChild(5);
 
+        Tree mayoTree = new Tree(50);
+
+        mayoTree.addChildren("25,13,38,6,3,9,1,75,62,88,94");
+
+        mayoTree.displayTree();
+
+        System.out.println(mayoTree.traverse());
+
         binaryTree2.displayTree();
         System.out.println();
         binaryTree1.displayTree();
